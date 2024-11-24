@@ -19,74 +19,6 @@
         public bool EstaLLeno => _tope == N;
         public bool EstaVacio => _tope == 0;
 
-        //Metodos
-        //---------------------------------------------------------------
-        //public MiArreglo LlenadoArregloB()
-        //{
-        //    Console.WriteLine("Ingresa el tamaño del arreglo B: \n");
-        //    int tamB = Convert.ToInt32(Console.ReadLine());
-
-        //    MiArreglo arregloB = new MiArreglo(tamB);
-        //    arregloB.Llenar(1, 20);
-
-        //    Console.WriteLine("Arreglo B generado con random es: \n");
-        //    Console.WriteLine(arregloB);
-
-        //    return arregloB;
-        //}
-
-        //public MiArreglo GenerarArregloC()
-        //{
-        //    MiArreglo valoresUn = ObtenerVUnicos();
-        //    MiArreglo arregloC = new MiArreglo(valoresUn._tope * 2);
-
-        //    LlenarArregloC(arregloC, valoresUn, 0);
-
-        //    return arregloC;
-        //}
-
-        //private void LlenarArregloC(MiArreglo arregloC, MiArreglo valoresUn, int i)
-        //{
-        //    if (i >= valoresUn._tope) return;
-
-        //    arregloC.Agregar(valoresUn._arreglo[i]);
-
-        //    int repeticiones = ContarRep(_arreglo, _tope, valoresUn._arreglo[i], 0);
-        //    arregloC.Agregar(repeticiones);
-
-        //    LlenarArregloC(arregloC, valoresUn, i + 1);
-        //}
-
-        //private int ContarRep(int[] arreglo, int tamano, int valor, int i)
-        //{
-        //    if (i >= tamano) return 0;
-        //    return (arreglo[i] == valor ? 1 : 0) + ContarRep(arreglo, tamano, valor, i + 1);
-        //}
-
-        //private MiArreglo ObtenerVUnicos()
-        //{
-        //    MiArreglo valoresU = new MiArreglo(_tope);
-
-        //    for (int i = 0; i < _tope; i++)
-        //    {
-        //        if (!valoresU.Contiene(_arreglo[i]))
-        //        {
-        //            valoresU.Agregar(_arreglo[i]);
-        //        }
-        //    }
-
-        //    return valoresU;
-        //}
-
-        //private bool Contiene(int valor)
-        //{
-        //    for (int i = 0; i < _tope; i++)
-        //    {
-        //        if (_arreglo[i] == valor) return true;
-        //    }
-        //    return false;
-        //}
-        //-------------------------------------------------------------
 
         public MiArreglo ObtenerPares()
         {
@@ -152,7 +84,6 @@
 
         }
 
-
         public void Llenar()
         {
             Llenar(1, 100);
@@ -167,7 +98,6 @@
             }
 
             _tope = N;
-
         }
 
         public void Ordenar() //metodo burbuja
@@ -175,6 +105,7 @@
 
             Ordenar(true);
         }
+
         public void Ordenar(bool asendente)
         {
             for (int i = 0; i < _tope - 1; i++)
@@ -216,7 +147,6 @@
 
             _arreglo[_tope] = numero;
             _tope++;
-
         }
 
         public void Insertar(int numero, int posicion)
@@ -268,11 +198,7 @@
                 _arreglo[i] = _arreglo[i + 1];
             }
             _tope--;
-
         }
-
-
-
 
         public override string ToString()
         {
