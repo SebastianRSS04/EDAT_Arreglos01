@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arreglos.Logica", "Arreglos.Logica\Arreglos.Logica.csproj", "{C2822364-69F0-4006-83BD-43AB3697D4B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arreglos.UI.Consola", "Arreglos.UI.Consola\Arreglos.UI.Consola.csproj", "{9EE3E4DB-D9EE-42A3-93BC-25C07469D674}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2822364-69F0-4006-83BD-43AB3697D4B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2822364-69F0-4006-83BD-43AB3697D4B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2822364-69F0-4006-83BD-43AB3697D4B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2822364-69F0-4006-83BD-43AB3697D4B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EE3E4DB-D9EE-42A3-93BC-25C07469D674}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EE3E4DB-D9EE-42A3-93BC-25C07469D674}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EE3E4DB-D9EE-42A3-93BC-25C07469D674}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EE3E4DB-D9EE-42A3-93BC-25C07469D674}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {125BBA3C-9CEC-479A-B888-20BE213F5AE6}
+	EndGlobalSection
+EndGlobal
